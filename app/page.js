@@ -2,6 +2,7 @@ import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import MenuSection from "./components/MenuSection";
 import Navbar from "./components/Navbar";
+import SocialSection from "./components/SocialSection";
 import SushiRegalSection from "./components/SushiRegalSection";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <SushiRegalSection />
         <AboutSection />
         <MenuSection />
+        <SocialSection />
       </div>
       <Footer />
     </main>
