@@ -25,8 +25,8 @@ const achievementsList = [
     value: "7",
   },
   {
-    metric: "Years history",
-    value: "10",
+    metric: "Since",
+    value: "2018",
   },
 ];
 
