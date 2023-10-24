@@ -80,9 +80,9 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/sushi.png"
-          width={500}
-          height={500}
+          src="/images/party.png"
+          width={700}
+          height={400}
           alt="About image"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -90,7 +90,12 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I look for his arrows every day I guess he got lost or flew away
             Waiting around is a waste (Waste) Been counting the days since
-            November Is loving as good as they say? 50:50 노래 가사중 ㅋ
+            November Is loving as good as they say? I look for his arrows every
+            day I guess he got lost or flew away Waiting around is a waste
+            (Waste) Been counting the days since November Is loving as good as
+            they say? I look for his arrows every day I guess he got lost or
+            flew away Waiting around is a waste (Waste) Been counting the days
+            since November Is loving as good as they say?50:50 노래 가사중 ㅋ
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
