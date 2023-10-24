@@ -60,7 +60,7 @@ const SushiRegalSection = () => {
             transition={{ duration: 1.5 }}
             className="col-span-4 place-self-center mt-4 lg:mt-0"
           >
-            <div className="rounded-3xl bg-[#181818] w-[385px] h-[260px] md:w-[300px] md:h-[200px] lg:w-[400px] lg:h-[270px] xl:w-[510px] xl:h-[350px] relative">
+            <div className="rounded-3xl bg-[#181818] w-[300px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[400px] lg:h-[270px] xl:w-[510px] xl:h-[350px] relative">
               <Image
                 src="/images/salmon_nigiri.png"
                 alt="Main dish"
