@@ -21,7 +21,7 @@ export const metadata = {
     "Maitland",
     "Newcastle",
   ],
-  url: "www.sushi-regal.com.au",
+  url: "https://sushi-regal.vercel.app",
   robots: {
     index: false,
     follow: true,
