@@ -43,7 +43,7 @@ const SushiRegalSection = () => {
         <div>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Welcome to Sushi Regal! At Sushi Regal, we believe in more than just
-            serving food; we’re here to offer you an unforgettable culinary
+            serving food; we&aposre here to offer you an unforgettable culinary
             experience. From the moment you step in, you become a part of our
             family. <br />
             Indulge in the artistry of our sushi rolls, crafted with the
