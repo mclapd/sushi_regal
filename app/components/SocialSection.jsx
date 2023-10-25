@@ -43,7 +43,7 @@ const SocialSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div>
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+          Let&apos;s connected
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           Embark on a flavorful journey beyond our cafe walls. Stay updated with
@@ -113,7 +113,7 @@ const SocialSection = () => {
             type="submit"
             className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
           >
-            Send Message - Sorry now working now 😢
+            Send Message - Sorry, now working now 😢
           </button>
           {emailSubmitted && (
             <p className="text-green-500 text-sm mt-2">
