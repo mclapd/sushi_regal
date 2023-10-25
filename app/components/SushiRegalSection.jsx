@@ -42,10 +42,10 @@ const SushiRegalSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-x-20">
         <div>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Welcome to Sushi Regal! At Sushi Regal, we believe in more than just
-            serving food; we&aposre here to offer you an unforgettable culinary
-            experience. From the moment you step in, you become a part of our
-            family. <br />
+            Welcome tnpo Sushi Regal! At Sushi Regal, we believe in more than
+            just serving food; we&apos;re here to offer you an unforgettable
+            culinary experience. From the moment you step in, you become a part
+            of our family. <br />
             Indulge in the artistry of our sushi rolls, crafted with the
             freshest ingredients and infused with flavors that dance on your
             taste buds. Every dish on our menu is a testament to our passion for

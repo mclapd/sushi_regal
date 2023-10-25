@@ -92,7 +92,7 @@ const AboutSection = () => {
             Thornton, Warabrook, Maitland of Newcastle, we are a cozy sushi roll
             cafe dedicated to serving you the freshest and most delectable sushi
             creations. <br /> Our mission is simple: to delight your taste buds
-            and create memorable moments. Whether you&aposre a sushi enthusiast
+            and create memorable moments. Whether you&apos;re a sushi enthusiast
             or a first-time explorer of Japanese cuisine, our friendly staff is
             here to guide you through a culinary journey filled with flavor and
             finesse. <br />
