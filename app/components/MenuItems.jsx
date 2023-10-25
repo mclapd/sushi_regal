@@ -3,8 +3,26 @@ import Image from "next/legacy/image";
 const MenuItems = ({ data }) => {
   const title = data.properties.Name.title[0].plain_text;
   const description = data.properties.Description.rich_text[0].plain_text;
-  const imgSrc = data.cover.external.url;
   const tags = data.properties.Tags.multi_select;
+
+  const extractFileIdFromUrl = (url) => {
+    const fileIdRegex = /\/d\/([a-zA-Z0-9_-]+)(?:\/|$)/;
+    const match = url.match(fileIdRegex);
+    return match ? match[1] : null;
+  };
+
+  const convertDriveLink = (url) => {
+    const fileId = extractFileIdFromUrl(url);
+    if (fileId) {
+      const convertedUrl = `https://drive.google.com/uc?export=view&id=${fileId}`;
+      return convertedUrl;
+    } else {
+      console.error("No valid Google Drive file found.");
+      return null;
+    }
+  };
+
+  const imgSrc = convertDriveLink(data.properties.Image_URL.url);
 
   return (
     <div className="flex flex-col m-3 rounded-xl w-full transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 dark:hover:shadow-gray-400/40 hover:text-secondary-200">
