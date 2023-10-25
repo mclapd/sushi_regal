@@ -5,7 +5,36 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Sushi Regal",
-  description: "Sushi Regal Homepage",
+  description:
+    "Sushi Regal is specialized in Japanese food, including sushi and rolls, located in Thornton, Warabrook, and Maitland in the Newcastle",
+  keywords: [
+    "sushi rolls",
+    "fresh sushi",
+    "Japanese cuisine",
+    "sushi cafe",
+    "sushi restaurant",
+    "handcrafted sushi",
+    "sushi delicacies",
+    "sushi artistry",
+    "Thornton",
+    "Warabrook",
+    "Maitland",
+    "Newcastle",
+  ],
+  url: "www.sushi-regal.com.au",
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googlebot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "larget",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
