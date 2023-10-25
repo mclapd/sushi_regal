@@ -46,9 +46,10 @@ const SocialSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I look for his arrows every day I guess he got lost or flew away
-          Waiting around is a waste (Waste) Been counting the days since
-          November Is loving as good as they say? 50:50 노래 가사중 ㅋ
+          Embark on a flavorful journey beyond our cafe walls. Stay updated with
+          the latest sushi delights, culinary adventures, and behind-the-scenes
+          magic by connecting with us on social media. Join our vibrant online
+          community and dive into the world of Sushi Regal
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">

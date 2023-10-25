@@ -88,14 +88,17 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Us</h2>
           <p className="text-base lg:text-lg">
-            I look for his arrows every day I guess he got lost or flew away
-            Waiting around is a waste (Waste) Been counting the days since
-            November Is loving as good as they say? I look for his arrows every
-            day I guess he got lost or flew away Waiting around is a waste
-            (Waste) Been counting the days since November Is loving as good as
-            they say? I look for his arrows every day I guess he got lost or
-            flew away Waiting around is a waste (Waste) Been counting the days
-            since November Is loving as good as they say?50:50 노래 가사중 ㅋ
+            Welcome to Sushi Regal, where passion meets plate! Nestled in
+            Thornton, Warabrook, Maitland of Newcastle, we are a cozy sushi roll
+            cafe dedicated to serving you the freshest and most delectable sushi
+            creations. <br /> Our mission is simple: to delight your taste buds
+            and create memorable moments. Whether you're a sushi enthusiast or a
+            first-time explorer of Japanese cuisine, our friendly staff is here
+            to guide you through a culinary journey filled with flavor and
+            finesse. <br />
+            Join us and savor the essence of authentic sushi in every bite.
+            Experience the warmth of our hospitality and the richness of our
+            flavors at Sushi Regal. Your culinary adventure begins here. <br />
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

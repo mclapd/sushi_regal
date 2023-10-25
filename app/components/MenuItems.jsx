@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const MenuItems = ({ data }) => {
   const title = data.properties.Name.title[0].plain_text;
@@ -8,16 +8,18 @@ const MenuItems = ({ data }) => {
 
   return (
     <div className="flex flex-col m-3 rounded-xl w-full transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 dark:hover:shadow-gray-400/40 hover:text-secondary-200">
-      <Image
-        className="rounded-t-xl"
-        src={imgSrc}
-        width="100"
-        height="60"
-        layout="responsive"
-        objectFit="cover"
-        quality={100}
-        alt="cover image"
-      />
+      <div className="rounded-t-xl responsive">
+        <Image
+          className="rounded-t-xl"
+          src={imgSrc}
+          width="100"
+          height="60"
+          layout="responsive"
+          objectFit="cover"
+          quality={100}
+          alt="cover image"
+        />
+      </div>
       <div className="p-4 flex flex-col">
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
