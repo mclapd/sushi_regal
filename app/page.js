@@ -1,5 +1,5 @@
 import AboutSection from "./components/AboutSection";
-import AchievementsSection from "./components/AchievementsSection";
+import AdvertiseSection from "./components/Advertise";
 import Footer from "./components/Footer";
 import MenuSection from "./components/MenuSection";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <SushiRegalSection />
-        <AchievementsSection />
+        <AdvertiseSection />
         <AboutSection />
         <MenuSection />
         <SocialSection />

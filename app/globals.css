@@ -16,11 +16,6 @@
   }
 }
 
-.background {
-  position: relative;
-  min-height: 350px;
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
