@@ -3,6 +3,7 @@ import MenuItems from "./MenuItems";
 
 export default async function MenuSection() {
   const memu_list = await NotionApi();
+
   return (
     <section className="text-white pt-6" id="menu">
       <div className="flex flex-col items-center justify-center min-h-screen px-3 mb-10 py-6">
@@ -15,7 +16,6 @@ export default async function MenuSection() {
           {memu_list.results.map((menu) => (
             <MenuItems key={menu.id} data={menu} />
           ))}
-          {/* <NotionApi /> */}
         </div>
       </div>
     </section>
