@@ -16,6 +16,8 @@ I briefly paid attention to SEO, checked for problems through lint, and also pai
 
 > This page based on Youtuber webdecoded's ["NextJs Portfolio Tutorial"](https://www.youtube.com/watch?v=Kb1f5bvF6f4&t=125s), and would like to say thanks to her!
 
+![Sushi Regal](image.png)
+
 ## How to use this code
 
 1. Download
