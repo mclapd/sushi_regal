@@ -1,10 +1,10 @@
 # Sushi Regal
 
-This project was started for a friend of mine who runs sushi cafes, but the details they wanted were not discussed yet, so it was not implemented.
+This project was started for friends of mine who runs sushi cafes, but the details they wanted were not discussed yet, so it was not implemented.
 
 Menus including information about menus must be added, modified, and deleted whenever necessary, and this must be managed in a database.
 
-My friend knows nothing about databases and web programming and it would be really painful for me to do applying changes every time.
+My friends know nothing about databases and web programming and it would be really painful for me to do applying changes every time.
 
 So I had to find a way to do this easily. Since Notion is easy for anyone to use, they can create a database using it and write down the contents of the menu as if they were taking notes there.
 
