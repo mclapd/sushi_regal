@@ -6,6 +6,7 @@ const MenuItems = ({ data }) => {
   const tags = data.properties.Tags.multi_select;
   const imgSrc = data.properties.Image_URL.url;
 
+  // google driver
   // const extractFileIdFromUrl = (url) => {
   //   const fileIdRegex = /\/d\/([a-zA-Z0-9_-]+)(?:\/|$)/;
   //   const match = url.match(fileIdRegex);
