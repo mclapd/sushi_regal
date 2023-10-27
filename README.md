@@ -27,3 +27,22 @@ I briefly paid attention to SEO, checked for problems through lint, and also pai
    `NOTION_DATABASE_ID=`
 
 4. npm run build or dev
+
+## How to setup Notion
+
+1. Create a Notion page
+2. Create a database inline on the page
+3. Create schema (e.g. Name, Tags, Description, Image_Url, ...)
+4. Go to "My integrations" and create a new integration
+   - Uncheck "Update content" and "Insert content"
+   - Select "No user information"
+5. Go to the Notion page created
+6. Click "Add connections" and select the created integration
+
+## How to link food pictures
+
+1. Create picture folder
+2. Upload food pictures
+3. Double click a food picutre
+4. Select "Optimazaion and Delivery" tab and copy the picutre link
+5. Go to Notion page and put the link on Image_Url in the database
