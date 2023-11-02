@@ -27,7 +27,7 @@ const MenuItems = ({ data }) => {
   // const imgSrc = convertDriveLink(data.properties.Image_URL.url);
 
   return (
-    <div className="flex flex-col m-3 rounded-xl w-full transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 dark:hover:shadow-gray-400/40 hover:text-secondary-200">
+    <div className="flex flex-col m-3 rounded-xl w-full transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 dark:hover:shadow-gray-400/40">
       <div className="rounded-t-xl responsive">
         <Image
           className="rounded-t-xl"
@@ -44,14 +44,29 @@ const MenuItems = ({ data }) => {
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
         <div className="flex items-start mt-2">
-          {tags.map((tag) => (
-            <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-lime-700 w-30"
-              key={tag.id}
-            >
-              {tag.name}
-            </h1>
-          ))}
+          {tags.map((tag) => {
+            let backgroundColor;
+            switch (tag.name) {
+              case "Thornton":
+                backgroundColor = "bg-sky-700";
+                break;
+              case "Warabrook":
+                backgroundColor = "bg-violet-700";
+                break;
+              case "Maitland":
+                backgroundColor = "bg-rose-700";
+                break;
+            }
+            return (
+              <h1
+                className={`bg px-2 py-1 mr-2 rounded-md font-semibold w-30 ${backgroundColor}`}
+                // style={{ backgroundColor: backgroundColor }}
+                key={tag.id}
+              >
+                {tag.name}
+              </h1>
+            );
+          })}
         </div>
       </div>
     </div>
